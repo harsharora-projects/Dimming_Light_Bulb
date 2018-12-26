@@ -9,8 +9,6 @@ boolean freq = FQ_50;
 String inString = "";
 int x;
 volatile boolean zero_cross = false;
-//boolean y= false;
-//boolean z= true;
 
 void setup()
 {
@@ -62,6 +60,5 @@ void serial_int()
       // clear the string for new input:
       inString = "";
     }
-
   }
 }
